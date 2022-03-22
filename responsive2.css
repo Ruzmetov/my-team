@@ -102,6 +102,46 @@
         color: #012F34;
         margin-bottom: 50px;
     }
+
+    .header__team
+    {
+        width: 380px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    .header button
+    {
+        width: 155px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 25px;
+        background-color: #014E56;
+        border: 3px solid #fff;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 45px;
+        color: #FFFFFF;
+    
+    }
+
+    .section1__descr
+    {
+        margin-top: 40px;
+        max-width: 700px;
+        width: 100%;
+        height: auto;
+    }
+
+    .section1 h1
+    {
+        margin-top: 70px;
+        font-weight: bold;
+        font-size: 64px;
+        color: #FFFFFF;
+    }
 }
 
 @media screen and (max-width:667.98px)
@@ -140,7 +180,7 @@
 
     .hamburger{
         display: block;
-        margin-top: 90px;
+        margin-top: 45px;
     }
 
     .header button

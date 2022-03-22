@@ -105,7 +105,7 @@
 
     .section1__descr
     {
-        margin-top: 130px;
+        margin-top: 70px;
         height: auto;
         padding: 0px 40px 0px 40px;
         box-sizing: border-box;
@@ -113,6 +113,16 @@
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
+    }
+
+    .site .section1 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-bottom: 130px;
+        box-sizing: border-box;
+        background-color: #014E56;
+        overflow: auto;
     }
 
     .section1__descr h1
@@ -304,6 +314,7 @@
 
     .hamburger{
         display: block;
+        margin-top: 10px;
     }
 }
 

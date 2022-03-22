@@ -88,12 +88,21 @@
 {
     .header
     {
-        padding: 0px 50px 80px 50px;
+        padding: 0px 50px 40px 50px;
         box-sizing: border-box;
         height: auto;
         display: flex;
         justify-content: space-between;
         background-color: #014E56;
+    }
+
+    .header__team
+    {
+        width: 380px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
     }
 
     .site 
@@ -129,7 +138,7 @@
 
     .hamburger{
         display: block;
-        margin-top: 90px;
+        margin-top: 50px;
     }
 
     .header button
@@ -147,7 +156,7 @@
 {
     .header
     {
-        padding: 0px 20px 50px 20px;
+        padding: 0px 20px 40px 20px;
         box-sizing: border-box;
         height: auto;
         display: flex;
